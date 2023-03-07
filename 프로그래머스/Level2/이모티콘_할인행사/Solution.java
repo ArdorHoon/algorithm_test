@@ -2,11 +2,12 @@ import java.util.*;
 
 class Solution {
     
-        static int[] answer = {0,0};
+    static int[] answer = {0,0};
     static Boolean[] visited;
     
     public int[] solution(int[][] users, int[] emoticons) {
-             visited = new Boolean[emoticons.length];
+        
+        visited = new Boolean[emoticons.length];
         Arrays.fill(visited, false);
         ArrayList<Integer> percents = new ArrayList<>();
 
@@ -16,7 +17,7 @@ class Solution {
     }
     
     
-        public static void calculate(ArrayList<Integer> percents, int[][] users, int[] emoticons){
+    public static void calculate(ArrayList<Integer> percents, int[][] users, int[] emoticons){
 
         int subscriber = 0;
         int price = 0;
