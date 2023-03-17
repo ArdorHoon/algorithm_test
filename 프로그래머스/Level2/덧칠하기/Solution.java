@@ -13,7 +13,7 @@ class Solution {
             
             if(last == -1){
                 answer++;
-                last = section[i] + m; //여기 부터 칠하면 됨
+                last = section[i] + m; 
             }
             else{
 
